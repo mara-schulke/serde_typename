@@ -1,0 +1,20 @@
+[package]
+name = "serde_typename"
+version = "0.1.0"
+authors = ["Mara Schulke <mara@schulke.xyz>"]
+edition = "2018"
+license = "GPL-3.0"
+homepage = "https://github.com/mara214/serde_typename"
+repository = "https://github.com/mara214/serde_typename.git"
+readme = "README.md"
+categories = ["value-formatting", "encoding", "parsing", "data-structures"]
+keywords = ["serialization", "deserialization", "serde", "typename"]
+description = """
+Conviently serialize and deserialize rust types into / from their serde name.
+"""
+
+[dependencies]
+serde = { version = "1.0", default-features = false }
+
+[dev-dependencies]
+serde = { version = "1.0", default-features = false, features = ["derive"] }
