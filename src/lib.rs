@@ -1,6 +1,6 @@
 #![warn(missing_docs)]
 #![warn(rustdoc::missing_doc_code_examples)]
-//!Conviently serialize and deserialize rust types into / from their serde name.
+//!Conveniently serialize and deserialize rust types into / from their serde name.
 //!
 //!## Usage
 //!

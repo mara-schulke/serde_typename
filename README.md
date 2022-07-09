@@ -3,7 +3,7 @@
 
 # serde_typename
 
-Conviently serialize and deserialize rust types into / from their serde name.
+Conveniently serialize and deserialize rust types into / from their serde name.
 
 ## Usage
 
